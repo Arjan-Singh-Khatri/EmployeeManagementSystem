@@ -9,8 +9,6 @@ This is a simple employee management system built using **ASP.NET Core MVC**, **
 - **ASP.NET Core MVC**: For web UI, routing, and backend logic
 - **Entity Framework Core (with raw SQL)**: For calling stored procedures
 - **SQL Server (SSMS)**: Database with manually created tables and stored procedures
-- **Session Management**: For login and role-based access
-- **Bootstrap**: For styling views with responsive UI
 
 ---
 
