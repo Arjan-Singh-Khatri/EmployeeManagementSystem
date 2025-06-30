@@ -27,3 +27,34 @@ EmployeeManagementSystem/<br/>
 │ ├── Employee/ (CRUD for employees)<br/>
 ├── appsettings.json <br/>
 └── Program.cs (main app setup)<br/>
+
+
+## Setup Instructions
+
+1. **Create Database**:
+   - Open SQL Server Management Studio (SSMS)
+   - Run provided SQL scripts to create:
+     - `Users` and `Employees` tables
+     - Stored procedures for Login, Register, Add/Edit/Delete Employee
+
+2. **Configure Connection String**:
+   - Open `appsettings.json`
+   - Update the `DefaultConnection` with your local SQL Server connection string
+
+3. **Run the App**:
+   - Open the solution in Visual Studio
+   - Build and Run the project
+   - Default route goes to `Home/Index`, where you can go to Login or Register
+
+4. **Login/Register Flow**:
+   - Register a new user
+   - After logging in, the user can view, add, edit, or delete employees
+
+---
+
+## Features Implemented
+
+- User Registration and Login
+- Secure password storage using hashes
+- CRUD operations on Employee data via stored procedures
+- Clean, maintainable codebase following MVC structure
