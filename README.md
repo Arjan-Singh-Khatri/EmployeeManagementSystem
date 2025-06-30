@@ -1,6 +1,6 @@
 # Employee Management System - ASP.NET Core MVC
 
-This is a simple employee management system built using **ASP.NET Core MVC**, **SQL Server**, and **Entity Framework Core**. It supports **user registration/login**, and allows **admin users** to manage employee records (create, view, update, delete).
+This is a simple employee management system built using **ASP.NET Core MVC**, **SQL Server**, and **Entity Framework Core**. 
 
 ---
 
@@ -25,6 +25,5 @@ EmployeeManagementSystem/<br/>
 ├── Views/<br/>
 │ ├── Account/ (Login/Register)<br/>
 │ ├── Employee/ (CRUD for employees)<br/>
-│ └── Admin/ (Admin Dashboard)<br/>
-├── appsettings.json (connection string)<br/>
+├── appsettings.json <br/>
 └── Program.cs (main app setup)<br/>
